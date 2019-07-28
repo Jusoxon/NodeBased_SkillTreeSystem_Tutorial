@@ -1,0 +1,45 @@
+{
+  "skilltree": [
+    {
+      "id_Skill": 0,
+      "skill_Dependencies": [],
+      "unlocked": true,
+      "cost": 0,
+      "name": "root",
+      "explain": "explain"
+    },
+
+    {
+      "id_Skill": 1,
+      "skill_Dependencies": [ 0 ],
+      "unlocked": false,
+      "cost": 1,
+      "name": "attack",
+      "explain": "can attack enemy"
+    },
+    {
+      "id_Skill": 2,
+      "skill_Dependencies": [ 0 ],
+      "unlocked": false,
+      "cost": 2,
+      "name": "magic",
+      "explain": "can spell magic"
+    },
+    {
+      "id_Skill": 3,
+      "skill_Dependencies": [ 1 ],
+      "unlocked": false,
+      "cost": 2,
+      "name": "strike",
+      "explain": "power attack"
+    },
+    {
+      "id_Skill": 4,
+      "skill_Dependencies": [ 2 ],
+      "unlocked": false,
+      "cost": 3,
+      "name": "fire ball",
+      "explain": "Super fire ball"
+    }
+  ]
+}
